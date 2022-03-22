@@ -1,6 +1,6 @@
-"""Write a function all_construct(target, word_bank) that accepts a target string and a list of strings. 
-The function should return a 2D list containing all the ways that the target can be constructed by concatenating elements of the word_bank list. 
-Each element of the 2D list should represent one combination that constructs the target. You may reuse elements of the word_bank as many times as needed."""
+"""Write a function all_construct(target, wordBank) that accepts a target string and a list of strings. 
+The function should return a 2D list containing all the ways that the target can be constructed by concatenating elements of the wordBank list. 
+Each element of the 2D list should represent one combination that constructs the target. You may reuse elements of the wordBank as many times as needed."""
 
 def allConstruct(target, wordBank, cache = None):
     if cache == None: cache = {}  # Workaround to have new cache for each testcase
