@@ -1,6 +1,6 @@
 """Write a function count_construct(target, wordBank) that accepts a target string and a list of strings. 
 The function should return the number of ways that the target can be constructed by concatenating elements of the wordBank list. 
-You may reuse elements of the word_bank as many times as needed."""
+You may reuse elements of the wordBank as many times as needed."""
 
 def countConstruct(target, wordBank, cache = None):
     if cache == None: cache = {}  # Workaround to have new cache for each testcase
