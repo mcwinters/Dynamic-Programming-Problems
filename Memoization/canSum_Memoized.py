@@ -1,3 +1,7 @@
+"""Write a function can_sum(target_sum, numbers) that takes in a target_sum and a list of numbers as arguments. 
+The function should return a boolean indicating whether or not it is possible to generate the target_sum using numbers from the list. 
+You may use an element of the list as many times as needed. You may assume that all input numbers are nonnegative."""
+
 def canSum(target, numbers, cache = None):
     if cache == None: cache = {}  # Workaround to have new cache for each testcase
     

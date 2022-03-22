@@ -1,3 +1,6 @@
+"""Say that you are a traveller on a 2D grid. You begin in the top-left corner and your goal is to travel to the bottom-right corner. 
+You only move down or right. In how many ways can you travel to the goal on a grid with dimensions m * n?"""
+
 def gridTraveller(m, n, cache = None):
     if cache == None: cache = {}  # Workaround to have new cache for each testcase
     

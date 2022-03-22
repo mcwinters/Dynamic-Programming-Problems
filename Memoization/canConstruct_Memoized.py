@@ -1,3 +1,7 @@
+"""Write a function can_construct(target, word_bank) that accepts a target string and a list of strings. 
+The function should return a boolean indicating whether or not the target can be constructed by concatenating elements of the word_bank list. 
+You may reuse elements of the word_bank as many times as needed."""
+
 def canConstruct(target, wordBank, cache = None):
     if cache == None: cache = {}  # Workaround to have new cache for each testcase
     
