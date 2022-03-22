@@ -1,5 +1,5 @@
-"""Write a function best_sum(target_sum, numbers) that takes in a target_sum and a list of numbers as arguments. 
-The function should return a list containing the shortest combination of numbers that add up to exactly the target_sum.
+"""Write a function best_sum(target, numbers) that takes in a target and a list of numbers as arguments. 
+The function should return a list containing the shortest combination of numbers that add up to exactly the target.
 If there a tie for the shortest combination, you may return any one of the shortest."""
 
 def bestSum(target, numbers, cache = None):
