@@ -12,6 +12,7 @@ def allConstruct(target, wordbank):
         for word in wordbank:  # iterate through words
             if target[i:i+len(word)] == word:  # if word is is valid
                 dp[i+len(word)] += list(map(lambda l: l + [word], dp[i]))  # update table
+                
     return dp[-1]  # return final element of table
 
 # Test Cases
